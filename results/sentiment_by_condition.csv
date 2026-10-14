@@ -1,0 +1,11 @@
+condition,negative,neutral,positive,n_reviews
+Birth Control,0.354,0.127,0.519,4852
+Insomnia,0.254,0.075,0.671,769
+Depression,0.234,0.094,0.672,1664
+Bipolar Disorde,0.219,0.059,0.722,752
+ADHD,0.212,0.088,0.701,591
+Acne,0.202,0.076,0.722,1063
+Pain,0.177,0.069,0.755,1211
+Anxiety,0.156,0.071,0.772,1151
+Obesity,0.156,0.084,0.76,641
+Weight Loss,0.13,0.063,0.807,710
