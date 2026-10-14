@@ -4,7 +4,7 @@ Classifies patient drug reviews from Drugs.com as negative, neutral, or positive
 
 ## Dataset
 
-Drug Reviews (Drugs.com), UCI Machine Learning Repository (Grasser et al., 2018). The data is not included in this repository; see the source for its terms of use. The notebook downloads the Kaggle mirror automatically with kagglehub (jessicali9530/kuc-hackathon-winter-2018, file drugsComTrain_raw.csv).
+Drug Reviews (Drugs.com), UCI Machine Learning Repository (Gräßer et al., 2018). The data is not included in this repository; see the source for its terms of use. The notebook downloads the Kaggle mirror automatically with kagglehub (jessicali9530/kuc-hackathon-winter-2018, file drugsComTrain_raw.csv).
 
 Sentiment labels are derived from the 1 to 10 patient rating: 1 to 4 negative, 5 to 6 neutral, 7 to 10 positive. After removing duplicate reviews (112,329 remain), a stratified sample of 30,000 reviews is used.
 
@@ -43,7 +43,7 @@ To run locally instead: pip install -r requirements.txt, then run the notebook (
 
 ## Reproducibility
 
-Random seeds are set to 42. The classical models give identical results on every run. DistilBERT training on a GPU is not exactly repeatable, so its metrics can vary by about 0.005 between runs. Library versions are in requirements.txt.
+Random seeds are set to 42. The classical models give identical results on every run. DistilBERT training on a GPU is not exactly repeatable, so its metrics can vary by less than 0.01 between runs. Library versions are in requirements.txt.
 
 ## Reference
 
